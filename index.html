@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Page</title>
+</head>
+
+<body class="background-img">
+    <header class="container header-area"></header>
+    <section>
+        <div class="container heading-area">
+            <h1 class="outfit-vietnam outfit-heading-1">
+                Interested in our business pricing?
+            </h1>
+            <h2 class="outfit-vietnam outfit-heading-2">
+                Fill out the form to view details and we'll contact you as soon as possible.
+            </h2>
+        </div>
+    </section>
+    <section>
+        <div class="container form-area">
+            <form>
+                <div class="form-two-col">
+                    <div class="form-label-input">
+                        <label for="fname" class="outfit-vietnam outfit-label">Name</label><br>
+                        <input type="text" id="fname" name="fname" value="Ethan Johnson" placeholder="Input your name"
+                            class="outfit-vietnam outfit-body form-input">
+                    </div>
+                    <div class="form-label-input">
+                        <label for="femail" class="outfit-vietnam outfit-label">Company Email</label><br>
+                        <input type="email" id="femail" name="femail" value="ethan@johnson.com"
+                            placeholder="Input your email" class="outfit-vietnam outfit-body form-input">
+                    </div>
+                </div>
+                <div class="form-two-col">
+                    <div class="form-label-input">
+                        <label for="fcompany" class="outfit-vietnam outfit-label">Company Size</label><br>
+                        <div class="dropdown form-input">
+                            <span class="outfit-vietnam outfit-body">50-100 employees</span>
+                            <img src="./img/Expand_down.svg" alt="dropdown">
+                            <div class="dropdown-content">
+                                <p class="outfit-vietnam outfit-body">100-150 employees</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-label-input">
+                        <label for="fsubject" class="outfit-vietnam outfit-label">Subject</label><br>
+                        <div class="dropdown form-input">
+                            <span class="outfit-vietnam outfit-body">Building Landing pages</span>
+                            <img src="./img/Expand_down.svg" alt="dropdown">
+                            <div class="dropdown-content">
+                                <p class="outfit-vietnam outfit-body">Building CRM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-one-col">
+                    <div class="form-label-input">
+                        <label for="fsubject" class="outfit-vietnam outfit-label">Message</label><br>
+                        <textarea id="w3review" name="w3review" rows="6" cols="50" 
+                        class="outfit-vietnam outfit-body form-input"
+                        placeholder="Input a description">50-100 employees</textarea>
+                    </div>
+                </div>
+                <div class="form-one-col">
+                    <button class="outfit-vietnam outfit-button form-input">Contact Sales</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
